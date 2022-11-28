@@ -1,2 +1,9 @@
-# Bot-BDSript-2
-Command For Bot discord use BDScript 2 or app Bot Designer for Discord(BDFD)
+# BDSript 2
+Language Indonesia 🇮🇩
+-
+BDScript adalah sebuah bahasa coding tetapi khusus untuk Bot Discord
+Memakai Bahasa coding BDScript lebih mudah ketimbang Python, JavaScript(Node.js),DLL
+
+Contoh:
+ $nomention
+ Hi
