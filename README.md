@@ -9,12 +9,23 @@ command trigger: $alwaysReply
 ```BDScript
 $nomention
 $if[$checkContains[$message;cooking;etc]==true]
-$deletecommand
-$title[Message Containings Bad Words]
-$description[Your message Containings Bad word so i deleted your message and timeout you during `5 minute`]
-$timeout[5m;$authorID]
+ $deletecommand
+ $title[Message Containings Bad Words]
+  $description[Your message Containings Bad word so i deleted your message and timeout you during `5 minute`]
+ $timeout[5m;$authorID]
 $endif
 ```
+Tetapi sudah ada sih command yang berurusan dengan kata-kata buruk yaitu $checkContains, yak yang ada di contoh :), ok coba yang lain.
+```BDScript
+$nomention
+$if[$toLowercase[$message]==$toLowercase[$getServerVar[prefix]]ping]
+ $channelSendMessage[$channelID;Pong! `$ping`]
+$elseif[$toLowercase[$message]==$toLowercase[$getServerVar[prefix]]time]
+ $time[America/New_York]
+ New York : $hour:$minute:$second
+$endif
+```
+Sama sih seperti buat command pada umum nya, tetapi kalau ada yang sulit kenapa pilih yang mudah.
 ## Language English
 I can't speak English but only a little, so I need the help of someone who can speak English.
 This message use Google translate If there is a mistake, I'm sorry :)
