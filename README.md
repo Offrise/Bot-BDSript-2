@@ -1,9 +1,9 @@
 # BDSript 2
 Language Indonesia 🇮🇩
 -
-BDScript adalah sebuah bahasa coding tetapi khusus untuk Bot Discord
+BDScript adalah sebuah bahasa coding tetapi khusus untuk Bot Discord\n
 Memakai Bahasa coding BDScript lebih mudah ketimbang Python, JavaScript(Node.js),DLL
 
-Contoh:
- $nomention
+Contoh:\n
+ $nomention\n
  Hi
